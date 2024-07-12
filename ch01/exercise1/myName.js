@@ -1,8 +1,5 @@
-let name = "Giannis"
-let h = "Hello"
+let name = "Giannis";
+let hello = "Hello";
 
-let greed = h + name
-
-console.log(h);
-
+console.log(`${hello} ", "  ${name}`)
 
