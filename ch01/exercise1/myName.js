@@ -1,5 +1,7 @@
-let name = "Giannis";
-let hello = "Hello";
+let namePerson = "Giannis"
+let hello = "Hello"
 
-console.log(`${hello} ", "  ${name}`)
-
+console.log(" ")
+console.log("****")
+console.log(hello + ", " +  namePerson)
+console.log("----")
