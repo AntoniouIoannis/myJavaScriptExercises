@@ -7,5 +7,8 @@ let user = {
 function salute(){
     return "Hello";
 }
+console.log("----")
+console.log(salute() + ", " + user.name + ".")
+console.log("---- Τέλος  ----")
+console.log(" ")
 
-console.log(salute() + " " + user.name);
