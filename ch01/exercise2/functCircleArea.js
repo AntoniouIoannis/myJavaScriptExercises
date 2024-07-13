@@ -1,20 +1,17 @@
-const PI = 3.14159265
-let r = 0
-
-function circleArea(PI , r){
-    return PI * r**2;
+function circleArea(radius) {
+    const PI = 3.14159265;  
+    return PI * radius * radius;  
 }
 
-// Συνάρτηση υπολογισμού εμβαδού κύκλου
-function calculateArea(radius) {
-    const pi = Math.PI;
-    const area = pi * radius * radius;
-    return area;
-}
+let radius = 5;
+let area = circleArea(radius);
 
-// Κλήση της συνάρτησης με ακτίνα 5
-const radius = 5;
-const area = calculateArea(radius);
+console.log(" ")
+console.log("---  Αρχή ----- ")
+console.log(`Το εμβαδόν του κύκλου με ακτίνα ${radius} είναι:  ${area}`);
 
-// Εμφάνιση του αποτελέσματος στη σελίδα
-document.getElementById('result').textContent = `Το εμβαδόν του κύκλου με ακτίνα ${radius} είναι ${area.toFixed(2)}`;
+console.log(" ")
+console.log(`Το εμβαδόν του κύκλου με ακτίνα ${radius} είναι:  ${area.toFixed(2)}`);
+console.log("-----------------    Τέλος   -----")
+console.log(" ")
+
